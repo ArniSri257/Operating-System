@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<unistd.h>
+#include<sys/wait.h>
+int main(){
+	if (fork()==0){
+		printf("Child process\n");
+		}
+	else{
+	  wait(NULL);
+	 printf("Partent Process\n");
+	}
+return 0;
+}
