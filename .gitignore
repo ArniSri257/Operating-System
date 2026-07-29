@@ -1,0 +1,22 @@
+# Ignore compiled C executables in any src folder
+**/src/*
+
+# Keep source code
+!**/src/*.c
+
+# Keep header files
+!**/src/*.h
+
+# Keep text files used by programs
+!**/src/*.txt
+
+# Ignore core dump files
+core
+core.*
+
+# Ignore temporary editor files
+*.swp
+*.tmp
+
+# Ignore macOS files
+.DS_Store
