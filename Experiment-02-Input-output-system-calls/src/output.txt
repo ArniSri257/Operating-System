@@ -1,0 +1,3 @@
+Hello!
+ Welcome to Linux System calls.
+ This file is created using write() system call.
